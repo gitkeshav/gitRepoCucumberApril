@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 	@CucumberOptions(
 					
 					monochrome=true,
-					dryRun=true,
+					//dryRun=true,
 					
 					features= {"src/test/resources/com/basic/parameterizationFF/"},
 					glue={"com/basic/parameterizationSD/"},
